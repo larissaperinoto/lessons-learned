@@ -1,22 +1,47 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho{
     position: fixed;
     top: 0px;
-    margin-left: 80px;
+    
+    padding: 20px 80px;
+}
+
+#cabecalho h1{
+    font-size: 30px;
+    font-style: bold;
+    color: darkslategray;
 }
 
 #minha_foto{
     width: 250px;
     border: 1px solid black;
-    margin: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 #corpo{
-    padding: 100px 100px;
-    margin-left: 400px;
+    padding: 50px 100px;
+    margin-left: 430px;
+    line-height: 25px;
+}
+
+#corpo h2{
+    font-style: bold;
+    font-size: 20px;
+    color:darkslategrey;
+}
+
+#tabela tr th{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+#tabela tr td{
+    text-align: center;
 }
 
 #rodape{
